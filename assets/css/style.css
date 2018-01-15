@@ -1,0 +1,104 @@
+.navbar-default {
+    background: none;
+    border: none;
+    margin: 0;
+}
+.navbar-brand {
+    background-color: #4aaaa5;
+    color: #fff !important;
+    font-weight: bold;
+    font-size: 2em;
+}
+.navbar-brand:hover {
+    background-color: #4aaaa5 !important;
+}
+
+header {
+    width: 100%;
+}
+.body {
+    background: url(https://i.ytimg.com/vi/-nOpuwYHu8k/hqdefault.jpg) left top repeat;
+    position: relative;
+    width: 100%;
+    box-shadow: inset 0px 2px 2px #aaa;
+    padding: 40px;
+    box-sizing: border-box;
+}
+.body .section {
+    background-color: #fff;
+    padding: 20px 30px;
+}
+
+.section h1 {
+    color: #4aaaa5;
+    font-weight: bold;
+}
+hr {
+    border: none;
+    border-bottom: 2px solid #efefef;
+}
+.my-photo {
+    width: 200px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+p {
+    font-size: 1.2em;
+    text-align: justify;
+    color: #666;
+}
+.social, .social li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.social li {
+    display: inline-block;
+}
+.social li img {
+    width: 80px;
+}
+
+footer {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #666;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    border-top: 5px solid #4aaaa5;
+}
+
+label {
+    font-size: 1.6em;
+    color: #666;
+}
+
+button {
+    background-color: #4aaaa5 !important;
+    border-color: #4aaaa5 !important;
+    border-radius: 0 !important;
+}
+
+.portfolio-item {
+    position: relative;
+}
+.portfolio-item img {
+    width: 100%;
+}
+.portfolio-label {
+    position: relative;
+    left: 0;
+    bottom: 80px;
+    color: #fff;
+    background: #4aaaa5;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+    .my-photo {
+        width: 100%;
+    }
+}
